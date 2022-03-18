@@ -28,6 +28,6 @@ public class UIManager : MonoBehaviour
   public void UpdateScore()
     {
         score++;
-        //scoreTxt.text = "Score: " + score;
+        scoreTxt.text = "Score: " + score;
     }
 }
